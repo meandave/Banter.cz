@@ -2,7 +2,7 @@
 
 body {
 	padding-top: 70px;
-	background-image: url("Media/darknight.jpg");
+	background-image: url("/Media/darknight.jpg");
 	background-size: cover;
 }
 
