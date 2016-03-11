@@ -7,22 +7,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 	<meta name="description" content="David Vondrovic Blog" />
 	<meta name="author" content="David Vondrovic" />
+	<meta name="keywords" content="David Vondrovic, games, websites, program, programmer, programming, creativity, references, about, offer, contact, java, php, html5, css3, canvas, javascript, libgdx" />
+	
+	<!-- browser tab icon for Chrome, Opera -->
+	<link rel="icon" type="image/png" href="Media/Rubik's_cube.svg.png" sizes="16x16">
+	<link rel="icon" type="image/png" href="Media/Rubik's_cube.svg.png" sizes="32x32">
 	
 	<title>David Vondrovic</title>
 	
     
 	<!--Bootstrap CSS-->
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+
 	
 	<!--Custom CSS-->
 	<link rel="stylesheet" type="text/css" href="stylish.css" />
 	
-	<!--Custom Font CSS-->
-	<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 	
-	<!--
-	<link rel="shortcut icon" href="http://postimg.org/image/jd4koyjgr/">
-	-->
+	
+	<!--Social icons CSS-->
+	<link href='social-buttons.css' rel='stylesheet' type='text/css'>
+	
+    <!--Font awesome-->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    
+	
+	
 </head>
 
 	
@@ -44,9 +54,8 @@
 			<!--Navbar links for the collapse menu aswell-->
 			<div class="collapse navbar-collapse" id="collapsemenu">
 				<ul class="nav navbar-nav">
-					<li class="active"><a href="index.html">Timeline</a></li>
-					<li><a href="projects.html">Projects</a></li>
-					<li><a href="contact.html">Contact</a></li>
+					<li><a href="index.html">Timeline</a></li>
+					<li class="active"><a href="projects.html">Archive</a></li>
 				</ul>
 			</div>
 		<!--End of container-->
@@ -56,80 +65,33 @@
 	
 	<!--Page Content-->
 	<div class="container">
-		<!--New posts preview-->
+		<!--Archive column-->
 		<div class="row">
 			<div class="col-md-8 well">
 				<!--Posts Heading Text-->
 				<h1 class="page-header">
-					Why Learn Java?
-					<small>Learning Java 001</small>
+					Categories
+					<small>All the stuff in one place</small>
 				</h1>
 				
-				<!--By David-->
-				<p class="lead">
-					by
-					<a href="contact.html">David</a>
-				</p>
+				<!--Left column-->
+				<div class="col-md-6">
+					<h4 class="text-center">Learning Java</h4>
+				</div>
 				
-				<!--Time Posted-->
-				<p>
-					<span class="glyphicon glyphicon-time"></span>
-					Posted on March 8th, 2016 at 2:04 AM
-				</p>
-				
-				<hr>
-				
-				<!--Article Content-->
-				<p>
-					How else to kickstart a series without explaining why I did so?
-					I have been keeping away from Java for a long time, longer than neccessary.
-				</p>
-				
-				<p>
-					Why? Complaints coming from everywhere about the verbosity of this language,
-					and constant predictions of it's death.
-					Well, I am pretty sure it is not going anywhere soon. Let's highlight 
-					a few facts why.
-				</p>
-				
-				<ul>
-					<li>Cross platform portability thanks to JVM</li>
-					<li>Loads of established technologies using Java</li>
-					<li>Native language for developing apps for Android</li>
-				</ul>
-				
-				<p>
-					I am learning Java because it will open many doors since it is so widely used.
-				</p>
-				
-				<h4>
-					How am I going to learn Java?
-				</h4>
-				
-				<p>
-					I took a course on Udemy, and so far it seems to be of high quality.
-					Check it out right here --> 
-					<a href="https://www.udemy.com/java-the-complete-java-developer-course/">
-						Java Developer Course
-					</a>
-				</p>
-				
-				<hr>
-				
-				<!--Next Episode-->
-				
-				<h3>
-					<a href="#">
-						Next Episode
-					</a>
-				</h3>
+				<!--Right column-->
+				<div class="col-md-6">
+					<h4 class="text-center">Something</h4>
+				</div>
 				
 				
-			<!--End of article column-->	
+				
+			<!--End of archive column-->	
 			</div>
 			
-			<!--Side content column-->
+			<!--Side content column SAME ON EVERY PAGE-->
 			<div class="col-md-4">	
+				
 				<!--Welcome well-->
 				<div class="well text-center">
 					<h3>Great Banter!</h3>
@@ -140,17 +102,41 @@
 					</h4>
 					<h4>
 						What are your interests? I love getting to know new people, feel free to
-						<a href="contact.html">Contact</a> me!
+						contact me!
 					</h4>
 					<hr>
 					<h4>Cheers, David</h4>
 				</div>
+				
+				<!--Contact well-->
 				<div class="well">
-					<h4>My Projects</h4>
+					<h3 class="text-center">Contact Me!</h4>
+					
+					<hr>
+					
+					<div class="row">
+						<div class="col-lg-12">
+							
+							<!--Social Buttons-->
+							<div class="social text-center">
+							<a href="https://github.com/meandave"><i class="fa fa-lg fa-github"></i></a>
+							<a href="https://stackoverflow.com/users/6034336/mindave"><i class="fa fa-lg fa-stack-overflow"></i></a>
+							<a href="https://www.facebook.com/dejwmeister23"><i class="fa fa-lg fa-facebook"></i></a>
+							<a href="https://plus.google.com/u/0/100955861710233864997/posts"><i class="fa fa-lg fa-google-plus"></i></a>
+							</div>		
+						</div>
+					<!--End of row-->
+					</div>
+				<!--End of Contact well-->
+				</div>
+				
+				<!--My Projects well-->
+				<div class="well">
+					<h3 class="text-center">What's up?</h3>
 					<div class="row">
 						<div class="col-lg-6">
 							<ul class="list-unstyled">
-								<li><a href="#">Learning Java</a></li>
+								<li><a href="#"><h4>Learning Java</h4></a></li>
 							</ul>
 						</div>
 						
@@ -164,14 +150,13 @@
 						
 						<div class="col-lg-12 text-center">
 							<a href="http://codepen.io/mindave/pens/public/" target="_blank">
-								My CodePen
+								<h5>My CodePen</h5>
 							</a>
 						</div>
 					<!--End of row-->
 					</div>
 				<!--End of my projects well-->
 				</div>
-				
 				
 			<!--End of side widgets column-->
 			</div>
@@ -182,11 +167,10 @@
 		<footer>
 			<div class="row">
 				<div class="col-lg-12">
-					David Vondrovic &copy; 2016
+					<h5 style="color:white;">David Vondrovic &copy; 2016</h5>
 				</div>
 			</div>
-		</footer>
-		
+		</footer>	
 	<!--End of container-->
 	</div>
 	
@@ -213,6 +197,6 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	
 	<!--Bootstrap jQuery-->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </body>
 </html>

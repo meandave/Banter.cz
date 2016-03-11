@@ -21,7 +21,7 @@
 
 	
 	<!--Custom CSS-->
-	<link rel="stylesheet" type="text/css" href="Styles/stylish.css" />
+	<link rel="stylesheet" type="text/css" href="stylish.css" />
 	
 	
 	
@@ -54,8 +54,8 @@
 			<!--Navbar links for the collapse menu aswell-->
 			<div class="collapse navbar-collapse" id="collapsemenu">
 				<ul class="nav navbar-nav">
-					<li><a href="index.html">Timeline</a></li>
-					<li class="active"><a href="projects.html">Archive</a></li>
+					<li class="active"><a href="index.html">Timeline</a></li>
+					<li><a href="projects.html">Archive</a></li>
 				</ul>
 			</div>
 		<!--End of container-->
@@ -65,45 +65,104 @@
 	
 	<!--Page Content-->
 	<div class="container">
-		<!--Archive column-->
+		<!--New posts preview-->
 		<div class="row">
 			<div class="col-md-8 well">
 				<!--Posts Heading Text-->
 				<h1 class="page-header">
-					Categories
-					<small>All the stuff in one place</small>
+					Fresh Posts
+					<small>On a silver plate</small>
 				</h1>
 				
-				<!--Left column-->
-				<div class="col-md-6">
-					<h4 class="text-center">Learning Java</h4>
-				</div>
 				
-				<!--Right column-->
-				<div class="col-md-6">
-					<h4 class="text-center">Something</h4>
-				</div>
+				<!--Fresh Blog Post-->
+				<h2>
+					<a href="Articles/LJ_002.html">Learning Java 002: Datatypes, Operators</a>
+				</h2>
+				
+				<!--Time Posted-->
+				<p>
+					<span class="glyphicon glyphicon-time"></span>
+					Posted on March 8th, 2016 at 12:43 PM
+				</p>
 				
 				
+				<!--900x300 image-->
+				<img class="img-responsive" src="Media/lavacrummoimage.jpg">
 				
-			<!--End of archive column-->	
+				<hr>
+				
+				<!--Introtext-->
+				<p>
+					The second episode of the Learning Java series highlights what have I learned so far.
+					Also includes some useful links! 
+				</p>
+				
+				<!--Read More button-->
+				<a class="btn btn-primary" href="Articles/LJ_002.html">
+					Read On
+					<span class="glyphicon glyphicon-chevron-right">
+					</span>
+				</a>
+				<!--End of fresh blog post-->
+				
+				<hr>
+				
+				<!--First Blog Post-->
+				<h2>
+					<a href="Articles/LJ_001.html">Learning Java 001: Why learn Java?</a>
+				</h2>
+				
+				<!--Time Posted-->
+				<p>
+					<span class="glyphicon glyphicon-time"></span>
+					Posted on March 8th, 2016 at 2:04 AM
+				</p>
+				
+				
+				<!--900x300 image-->
+				<img class="img-responsive" src="Media/lavacrummoimage.jpg">
+				
+				<hr>
+				<!--Introtext-->
+				<p>
+					This first episode of the Learning Java series focuses on why have I decided to 
+					learn Java in the first place.
+				</p>
+				
+				<!--Read More button-->
+				<a class="btn btn-primary" href="LJ_001.html">
+					Read On
+					<span class="glyphicon glyphicon-chevron-right">
+					</span>
+				</a>
+				<!--End of first blog post-->
+				
+			<!--End of fresh posts column-->	
 			</div>
 			
-				<!--SIDE CONTENT SAME ON EVERY PAGE-->
-		<div class="col-md-4">	
+			<!--Side content column-->
+			<div class="col-md-4">	
 				
-				<!--WELCOME WELL-->
+				<!--Welcome well-->
 				<div class="well text-center">
 					<h3>Great Banter!</h3>
 					<hr>
-					<h4>I am a self taught wiz kid, and those are just my 42 cents.
+					<h4>I am a CS student interested in and learning about IoT and InfoSec.
+					</h4>
+					<h4>This site is a practical documentation of my learning process.
+					</h4>
+					<h4>
+						What are your interests? I love getting to know new people, feel free to
+						contact me!
 					</h4>
 					<hr>
+					<h4>Cheers, David</h4>
 				</div>
 				
-				<!--CONTACT WELL-->
+				<!--Contact well-->
 				<div class="well">
-					<h3 class="text-center">Friends?</h4>
+					<h3 class="text-center">Contact Me!</h4>
 					
 					<hr>
 					
@@ -112,52 +171,48 @@
 							
 							<!--Social Buttons-->
 							<div class="social text-center">
-							<a href="https://github.com/meandave" target="_blank"><i class="fa fa-lg fa-github"></i></a>
-							<a href="https://stackoverflow.com/users/6034336/mindave"><i class="fa fa-lg fa-stack-overflow" target="_blank"></i></a>
-							<a href="https://www.facebook.com/dejwmeister23"><i class="fa fa-lg fa-facebook" target="_blank"></i></a>
-							<a href="https://plus.google.com/u/0/100955861710233864997/posts"><i class="fa fa-lg fa-google-plus" target="_blank"></i></a>
-							</div>
-							
+							<a href="https://github.com/meandave"><i class="fa fa-lg fa-github"></i></a>
+							<a href="https://stackoverflow.com/users/6034336/mindave"><i class="fa fa-lg fa-stack-overflow"></i></a>
+							<a href="https://www.facebook.com/dejwmeister23"><i class="fa fa-lg fa-facebook"></i></a>
+							<a href="https://plus.google.com/u/0/100955861710233864997/posts"><i class="fa fa-lg fa-google-plus"></i></a>
+							</div>		
 						</div>
 					<!--End of row-->
 					</div>
-				<!--END OF CONTACT WELL-->
+				<!--End of Contact well-->
 				</div>
 				
-				<!--PROJECTS WELL-->
+				<!--My Projects well-->
 				<div class="well">
-					<h3 class="text-center">What's in here?</h3>
-					
+					<h3 class="text-center">What's up?</h3>
 					<div class="row">
-						
 						<div class="col-lg-6">
 							<ul class="list-unstyled">
-								<li><a href="#"><h4><!--LINK--></h4></a></li>
-								<li><a href="#"><h4><!--LINK--></h4></a></li>
-								<li><a href="#"><h4><!--LINK--></h4></a></li>
+								<li><a href="#"><h4>Learning Java</h4></a></li>
 							</ul>
 						</div>
 						
+						<!--
 						<div class="col-lg-6">
 							<ul class="list-unstyled">
-								<li><a href="#"><h4><!--LINK--></h4></a></li>
-								<li><a href="#"><h4><!--LINK--></h4></a></li>
-								<li><a href="#"><h4><!--LINK--></h4></a></li>
+								<li><a href="#">Web Development</a></li>
 							</ul>
 						</div>
+						-->
 						
-						<!--Middle codepen link-->
 						<div class="col-lg-12 text-center">
 							<a href="http://codepen.io/mindave/pens/public/" target="_blank">
 								<h5>My CodePen</h5>
 							</a>
 						</div>
-						
 					<!--End of row-->
 					</div>
 				<!--End of my projects well-->
 				</div>
-		<!--END OF SIDE CONTENT COLUMN-->
+				
+			<!--End of side widgets column-->
+			</div>
+		<!--End of side widgets row-->
 		</div>
 		
 		<!--Footer-->
