@@ -1,1 +1,0 @@
-Those are the .html, .css and .js files composing my blog.
