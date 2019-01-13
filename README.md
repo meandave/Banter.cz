@@ -1,5 +1,6 @@
 # banter.cz
- Features project-based web app development tutorials 
+ Website filled with various web apps and guides on how to make them 
+ Each of the web apps has a download here in this repository
 
- Front end design: Bootstrap 4
- Front end interactivity: ReactJS
+
+ 
