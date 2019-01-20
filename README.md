@@ -1,9 +1,7 @@
 # banter.cz
- Website filled with various web apps that I make, includes guides on how to make them 
- 
- All downloads located in this repo
+ Source code of my website http://banter.cz/
 
-# test edit
+ # Just done a couple design updates, upcoming updates in JS
 
 
  
